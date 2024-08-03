@@ -110,6 +110,9 @@ body {
 .u-margin-top-big {
   margin-top: 8rem; }
 
+.u-margin-top-huge {
+  margin-top: 10rem; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -378,6 +381,8 @@ body {
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
+  .section-features > * {
+    transform: skewY(7deg); }
 
 .section-tours {
   background-color: #f7f7f7;
