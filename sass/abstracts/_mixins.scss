@@ -1,7 +1,15 @@
+// mixin is a reusable blocks of code that help to avoid repetition , create dynamci styles amd modularize code 
 @mixin clearfix {
     &::after {
         content: "";
         display: table;
         clear: both;
     }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
